@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "estudio",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "estudio"],
+      "port": 5174
+    },
+    {
+      "name": "estudio-simulado",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "estudio"],
+      "port": 5174,
+      "env": { "ESTUDIO_CLAUDE": "D:\\Project Alpha\\estudio\\tests\\claude-simulado.ts" }
+    },
+    {
+      "name": "estudio-gemini-simulado",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--prefix", "estudio"],
+      "port": 5174,
+      "env": { "ESTUDIO_GEMINI_URL": "http://127.0.0.1:5199/v1beta/interactions", "ESTUDIO_GEMINI_CHAVE": "teste" }
+    }
+  ]
+}

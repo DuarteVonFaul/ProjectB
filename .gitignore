@@ -1,0 +1,25 @@
+# Dependências e build
+node_modules/
+estudio/dist/
+
+# Segredos (chaves de API). O modelo fica em estudio/.env.exemplo
+.env
+.env.*
+!.env.exemplo
+
+# Projetos do usuário (roteiros, artes, narração e vídeos ficam só neste computador)
+estudio/projetos/
+
+# Vozes: ambientes Python e modelos grandes (baixados na instalação, ver LEIAME)
+estudio/vozes/venv/
+estudio/vozes/venv-kokoro/
+estudio/vozes/piper/
+estudio/vozes/kokoro/
+estudio/vozes/amostras/
+__pycache__/
+
+# Sistema e editores
+.DS_Store
+Thumbs.db
+*.log
+.claude/settings.local.json

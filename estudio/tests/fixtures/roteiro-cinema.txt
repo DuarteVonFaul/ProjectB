@@ -1,0 +1,85 @@
+Episódio de teste - Capítulo 0:
+
+Cena 01:
+Ext. Ilha Corvo Arquipélago do Norte -- Ano 2310 Ao amanhecer.
+
+Lia está próxima ao Arquipélago em um barco no meio do mar.
+Sons de água batendo no casco do Barco
+
+Cena 02:
+Lia Moreau V.O - Pensamentos
+"Toda noite o mesmo farol aparece,
+piscando no horizonte dos meus sonhos"
+
+Lembranças de Lia: Vento forte, Sons de cordas rangendo, Sons de ondas quebrando.
+
+Cena 03:
+Lia Moreau V.O - Pensamentos
+"Não importa quantos mapas eu leia,
+nenhum mostra essa ilha"
+
+Lembranças de Lia: Luzes apagando, Sons de metal batendo, Vozes distantes
+Cena 04:
+Lia Moreau V.O - Pensamentos
+"Ainda lembro do caminho,
+Ainda lembro das estrelas, mas ainda não sei o que procuro"
+
+Cena 05:
+ORB (Orbital Reconnaissance Bot) - Falas
+-- Lia ... Lia ... chegamos ao ponto marcado.
+
+Nota:
+(ORB é um robô de reconhecimento que flutua ao lado da usuária e analisa o terreno em tempo real)
+
+Cena 06:
+Lia Moreau - Falas
+-- Entendido ORB, onde fica a estação antiga ?.
+
+ORB (Orbital Reconnaissance Bot) - Falas
+-- Ilha Corvo, no pé do Vulcão, Quer que eu prepare o sinal ?
+
+Lia Moreau - Falas
+--Sim, Vamos acender aquele farol.
+
+ORB (Orbital Reconnaissance Bot) - Falas
+-- Certo, vamos começar.
+
+Cena 07:
+ORB se aproxima de Lia e projeta um mapa luminoso no ar enquanto Lia fecha os olhos tentando lembrar do caminho.
+
+Lia Moreau V.O - Pensamentos
+"Toda noite o mesmo farol..."
+
+Lia Moreau V.O - Pensamentos
+"Sempre a mesma luz chamando"
+
+Lembranças de Lia: Imagem de uma escada em espiral subindo dentro de uma torre escura
+
+Cena 08:
+ORB (Orbital Reconnaissance Bot) - Falas
+--10% da calibragem concluída, ligando os sensores.
+-- 20% da calibragem concluída, ligando a antena principal
+--30% da calibragem concluída, carregando o emissor de luz.
+--40% da calibragem concluída, emissor em 34%, abrindo acesso aos arquivos da estação
+--50% da calibragem concluída, emissor em 67%, sobrecarga na rede elétrica, ainda deseja continuar ?
+
+Lia Moreau - Falas
+-- Ainda não é suficiente... Pode continuar.
+
+Cena 09:
+ORB (Orbital Reconnaissance Bot) - Falas
+-- 60% da calibragem concluída, emissor completo, pronto para o disparo.
+-- Disparo do sinal em... 3... 2... 1...
+
+Som do disparo quebrando a barreira do Som
+Som da Onda de Choque
+Imagem de uma Luz incandescente cobrindo o Arquipélago
+O farol se acende no alto da ilha.
+
+Cena 10:
+ORB (Orbital Reconnaissance Bot) - Falas
+-- Sinal enviado .... Resposta recebida em 8...
+
+Lia Moreau V.O - Pensamentos
+"Ainda que eu demore... vou encontrar quem acendeu esse farol... "
+"Ainda que eu demore... não vou parar...até chegar lá"

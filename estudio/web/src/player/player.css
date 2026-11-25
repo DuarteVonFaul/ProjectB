@@ -1,0 +1,50 @@
+.ep-palco{position:absolute;left:50%;top:50%;width:1280px;height:720px;margin:-360px 0 0 -640px;overflow:hidden;perspective:2400px;
+  background:radial-gradient(ellipse at 50% 46%,#3d2817 0%,#22150c 50%,#0c0705 100%);font-family:'Cormorant Garamond',Georgia,serif;color:#e9d8b4}
+.ep-luz{position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 18% 12%,rgba(255,170,80,.22),transparent 45%),radial-gradient(circle at 50% 55%,rgba(255,190,110,.10),transparent 60%)}
+.ep-livro{position:absolute;left:200px;top:60px;width:880px;height:600px;transform-style:preserve-3d}
+.ep-base{position:absolute;left:-14px;top:-10px;width:908px;height:624px;border-radius:7px;
+  background:#4a2414 linear-gradient(90deg,#3a1a0e 0%,#5a2c18 48%,#2a1209 50%,#5a2c18 52%,#3a1a0e 100%);
+  box-shadow:0 34px 70px rgba(0,0,0,.7),inset 0 0 26px rgba(0,0,0,.6)}
+.ep-paginas{position:absolute;inset:0;transform-style:preserve-3d}
+.ep-palco .pg{position:absolute;top:0;width:440px;height:600px;overflow:hidden;background-color:#e7d3aa;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='260' height='260'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' seed='4'/><feColorMatrix values='0 0 0 0 .36 0 0 0 0 .22 0 0 0 0 .1 0 0 0 .16 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>"),
+   radial-gradient(circle at 78% 22%,rgba(150,100,40,.16),transparent 22%),radial-gradient(circle at 25% 80%,rgba(140,90,40,.14),transparent 26%)}
+.ep-palco .pg.l{left:0}
+.ep-palco .pg.r{left:440px}
+.ep-palco .pg.l::after,.ep-palco .pg.r::after{content:'';position:absolute;inset:0;pointer-events:none}
+.ep-palco .pg.l::after{background:linear-gradient(90deg,rgba(90,55,20,.30) 0%,transparent 7%,transparent 86%,rgba(70,40,15,.45) 100%)}
+.ep-palco .pg.r::after{background:linear-gradient(270deg,rgba(90,55,20,.30) 0%,transparent 7%,transparent 86%,rgba(70,40,15,.45) 100%)}
+.ep-palco .pg svg{position:absolute;inset:0;display:block}
+.ep-folha{position:absolute;left:440px;top:0;width:440px;height:600px;transform-origin:0 50%;transform-style:preserve-3d;display:none;z-index:5}
+.ep-capa{position:absolute;left:440px;top:0;width:440px;height:600px;transform-origin:0 50%;transform-style:preserve-3d;z-index:6}
+.ep-palco .face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;left:0!important}
+.ep-palco .face.back{transform:rotateY(180deg)}
+.ep-capaF{border-radius:3px 9px 9px 3px;background:#5a2a16 radial-gradient(circle at 40% 35%,#6e3620,#3e1b0d 75%);
+  box-shadow:inset 0 0 0 10px #4a2111,inset 0 0 0 12px #b4842c,inset 0 0 0 18px #4a2111,inset 0 0 0 19px #8a6322,inset 0 0 40px rgba(0,0,0,.7);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;color:#d4a64a;text-align:center;padding:40px}
+.ep-titulo{font-family:'IM Fell English SC',serif;font-size:54px;letter-spacing:6px;line-height:1.1;text-shadow:0 2px 0 #2a1208}
+.ep-sub{font-family:'IM Fell English SC',serif;font-size:20px;letter-spacing:3px;color:#c29440}
+.ep-carvao{position:absolute;inset:0;display:none;pointer-events:none;z-index:8}
+.ep-palco .hd{padding:40px 44px 0;text-align:center;color:#5a3a1e}
+.ep-palco .ch{font-family:'IM Fell English SC',serif;font-size:15px;letter-spacing:3px}
+.ep-palco .sc{font-family:'IM Fell English SC',serif;font-size:30px;color:#7a2a14;margin-top:2px}
+.ep-palco .orn{font-size:20px;color:#9a6a2a;line-height:1}
+.ep-palco .txt{padding:10px 46px;font-size:21px;line-height:1.42;color:#3a2313;text-align:justify;hyphens:auto}
+.ep-palco .txt p{margin:0 0 9px}
+.ep-palco .txt span{color:rgba(58,35,19,.15);transition:color .35s}
+.ep-palco .txt span.on{color:#3a2313}
+.ep-palco .txt p:first-child::first-letter{font-family:'IM Fell English SC',serif;font-size:56px;float:left;line-height:.88;margin:5px 8px 0 0;color:#7a2a14}
+.ep-palco .respingo{transform-box:fill-box;transform-origin:center;animation:ep-respingo .45s cubic-bezier(.2,1.6,.4,1) backwards}
+@keyframes ep-respingo{from{transform:scale(0)}}
+.ep-palco .pingo{transform-box:fill-box;transform-origin:top;animation:ep-pingo 2.4s ease-in backwards}
+@keyframes ep-pingo{from{transform:scaleY(0)}}
+.ep-fx{position:absolute;inset:0;pointer-events:none;z-index:20}
+.ep-legenda{position:absolute;left:0;right:0;bottom:34px;text-align:center;font-style:italic;font-size:34px;color:#f0dcb0;text-shadow:0 2px 12px #000;opacity:0;transition:opacity .6s;z-index:25;pointer-events:none}
+.ep-fim{position:absolute;left:0;right:0;top:668px;text-align:center;font-family:'IM Fell English SC',serif;font-size:34px;letter-spacing:6px;color:#d4a64a;opacity:0;transition:opacity 2.5s;z-index:25;pointer-events:none}
+.ep-clarao{position:absolute;inset:0;opacity:0;pointer-events:none;z-index:22;background:radial-gradient(circle at 60% 45%,#fff 0%,#fff7e0 35%,rgba(255,220,160,.85) 70%,rgba(255,190,120,.6) 100%)}
+.ep-palco .txt p.pensamento span.on{font-style:italic}
+.ep-palco .txt p.pensamento span{font-style:italic}
+.ep-palco .txt .quem{font-family:'IM Fell English SC',serif;font-weight:400;font-size:16px;letter-spacing:1px;color:#7a2a14;margin-right:4px}
+.ep-palco .txt p.fala .quem::after,.ep-palco .txt p.pensamento .quem::after{content:':'}
+.ep-palco .txt p:first-child:has(.quem)::first-letter{font-size:inherit;float:none;margin:0;font-family:inherit;line-height:inherit}
+.ep-palco image.img-revela{filter:saturate(1.02)}
